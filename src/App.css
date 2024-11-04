@@ -1,0 +1,70 @@
+.wrapper {
+   width: 600px;min-height: 50vh; margin: 10px auto;
+   background: #fff; position: relative;
+   }
+header {
+   padding: 20px 10px;
+   background: lightsalmon;
+   color: #fff;
+   }
+header div {
+   display: flex;justify-content: space-between;
+   }
+h1 {font-weight: 700; text-align: center;}
+.user_main {border: 2px solid lightsalmon;}
+.user_add {
+   position: absolute; left: 0; right: 0; top: 0; bottom: 0;
+   height: 100%; display: flex;justify-content: center;
+   align-items: center;
+   background: rgba(0,0,0,.4);
+   border: none;
+   }
+
+.user_add form {
+   padding: 20px;
+   background: #FFF;border-radius: 10px;
+   padding: 10px;
+   }
+.btn_add {
+   font-size: 20px;
+   background: none;
+   border: none;
+}
+.icon_wrap button{font-size: 20px;}
+.user_list_item{padding: 0;}
+.user_info_wrap li{
+   display: flex; justify-content: space-between;
+   padding: 20px; border-bottom: 1px solid #ddd;
+   width: 500px; margin: auto;
+}
+.user_info_story {display: flex;gap: 30px;
+align-items: center;}
+.user_info_pic{
+   width: 150px; height: 150px;
+   border-radius: 100px;
+   overflow: hidden;
+}
+
+.user_info_pic img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.ico_fav{
+   -webkit-text-stroke: 1px silver;
+   color: transparent;
+}
+
+.ico_fav.fav_choice{
+   -webkit-text-stroke: 1px red;
+   color: red
+}
+
+.ico_modi {
+   /* position: absolute;
+   padding: 10px;right: 20px;top: 50%;
+   white-space: nowrap;
+   transform: translateY(-50%); */
+   /* display: none; */
+}

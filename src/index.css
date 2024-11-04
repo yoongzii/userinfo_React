@@ -1,0 +1,17 @@
+
+/* Common, Default */
+body {
+   font-family: 'Pretendard', sans-serif;
+   font-size: 18px;
+ }
+
+ button {
+   background: none;border: none;color: inherit;
+   padding: 0;margin: 0;cursor: pointer;
+ }
+
+ .default_btn {
+   padding: 8px 16px;color: #FFF;font-size: 16px;
+   background: lightsalmon ;border-radius: 5px;
+ }
+
